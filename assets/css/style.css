@@ -1,0 +1,50 @@
+html, body {
+  background-color: #454545;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  color: #B8B8B8;
+}
+
+.wrapper-row {
+  display: flex;
+}
+
+.sidebar {
+  width: 248px;
+  padding: 15px 0px;
+  height: calc(100vh - 88px);
+  background-color: #2F2F2F;
+  box-sizing: border-box;
+}
+
+.wrapper-column {
+  flex: 1;
+  width: calc(100% - 248px);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  box-sizing: border-box;
+  background-color: #2C2B2B;
+}
+
+.contents {
+  background-color: #454545;
+  height: calc(100vh - 144px);
+  box-sizing: border-box;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  box-sizing: border-box;
+  background-color: #575757;
+  flex-grow: 1;
+  z-index: 10;
+}
